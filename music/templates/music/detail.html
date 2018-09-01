@@ -14,7 +14,7 @@
         <input type="radio" id="song {{ forloop.counter }}" name="song" value="{{ song.id }}">
         <label for="song {{ forloop.counter }}">
             {{ song.song_title }}
-            {% if song.is_favorite %}
+            {% if song.is_fav %}
                 <img src="https://www.google.co.in/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwj24OPDuYrdAhUEqo8KHQgHBSkQjRx6BAgBEAU&url=https%3A%2F%2Fwww.vectorstock.com%2Froyalty-free-vector%2Fstar-icon-star-favorite-icon-vector-19576682&psig=AOvVaw2BQM1-2E8WlRPO9B-f37vo&ust=1535363656182960">
             {% endif %}
         </label>
